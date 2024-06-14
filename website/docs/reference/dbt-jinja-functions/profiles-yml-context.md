@@ -26,7 +26,7 @@ jaffle_shop:
       user: "{{ env_var('DBT_USER') }}"
       password: "{{ env_var('DBT_PASS') }}"
       port: 5439
-      dbname: analytics
+      database: analytics
       schema: dbt_dbanin
       threads: 4
 ```
